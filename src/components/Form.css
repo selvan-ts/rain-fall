@@ -1,0 +1,79 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.all {
+    margin: 100px auto;
+    max-width: 700px;
+    text-align: center;
+    background: rgba(135, 206, 235, 0.9);
+    /* Transparent skyblue */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.all:hover {
+    transform: scale(1.01);
+}
+
+.hed {
+    color: darkred;
+    margin-bottom: 25px;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px white;
+}
+
+.in label {
+    color: #333;
+    padding: 10px;
+    font-size: 18px;
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+}
+
+.in input {
+    padding: 8px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.in input:focus {
+    outline: none;
+    border-color: #00aaff;
+    box-shadow: 0 0 8px rgba(0, 170, 255, 0.3);
+    background-color: #fff;
+}
+
+.button input {
+    background-color: orangered;
+    height: 50px;
+    width: 250px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.button input:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.button input:active {
+    background-color: yellowgreen;
+    color: black;
+    font-weight: bold;
+    transform: scale(0.98);
+}
