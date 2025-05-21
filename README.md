@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌧️ Rainfall Prediction React App
 
 This is a React-based frontend for predicting rainfall using machine learning techniques. It connects to a Flask backend that performs the prediction using models like Decision Tree and XGBoost.
@@ -135,3 +136,6 @@ Built with 💻 using React and Python Flask.
 For deployment or contribution help, open an issue or contact me.
 
 ---
+=======
+# rain-fall
+>>>>>>> 1bf20086c70f828f375d9dee74017233c8712b6d
